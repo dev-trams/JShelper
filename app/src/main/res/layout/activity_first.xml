@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.worb8.jshelper.First">
+
+    <TextView
+        android:id="@+id/tx"
+        style="@style/textstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="70dp"
+        android:text="@string/maintext"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn1"
+                style="@style/first_btn"
+                android:text="@string/btntx1"
+                android:onClick="onbtnClick1"/>
+
+            <Button
+                android:id="@+id/btn2"
+                style="@style/first_btn"
+                android:text="@string/btntx2"
+                android:onClick="onbtnClick2"/>
+
+            <Button
+                android:id="@+id/btn3"
+                style="@style/first_btn"
+                android:text="@string/btntx3"
+                android:onClick="onbtnClick3"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn4"
+                style="@style/first_btn"
+                android:text="@string/btntx4"
+                android:onClick="onbtnClick4"/>
+
+            <Button
+                android:id="@+id/btn5"
+                style="@style/first_btn"
+                android:text="@string/btntx6"
+                android:onClick="onbtnClick5"/>
+
+            <Button
+                android:id="@+id/btn6"
+                style="@style/first_btn"
+                android:text="@string/warning"
+                android:onClick="onbtnClick6"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
