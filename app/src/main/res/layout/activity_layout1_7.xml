@@ -11,14 +11,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="국"
+        android:text="육적"
         android:textSize="25sp" />
 
 
     <ImageView
-        android:layout_width="80dp"
+        android:background="@drawable/p1"
+        android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="130dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
 
     <TextView

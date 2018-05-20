@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/alert2"
+    android:id="@+id/alert21"
     android:layout_width="350dp"
     android:layout_height="wrap_content">
 
@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="잔"
+        android:text="홍어"
         android:textSize="25sp" />
 
 

@@ -1,12 +1,10 @@
 package com.example.worb8.jshelper;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.Window;
-import android.widget.Button;
+
 
 public class layout1_1 extends Activity implements OnClickListener {
 

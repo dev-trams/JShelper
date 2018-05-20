@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="어적"
+        android:text="포"
         android:textSize="25sp" />
 
 
@@ -27,5 +27,5 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:padding="10dp"
-        android:text="이미지출처 | 네이버백과사전" />
+        android:text="육탕,소탕,어탕 | 이미지출처 | 네이버백과사전" />
 </RelativeLayout>

@@ -11,15 +11,16 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="밥"
+        android:text="육전"
         android:textSize="25sp" />
 
-
-    <ImageView
-        android:layout_width="80dp"
+    <View
+        android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="130dp"
-        android:layout_marginTop="25dp" />
+        class="android.support.v4.view.ViewPager"
+        android:id="@+id/view"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
 
     <TextView
         android:id="@+id/text1"

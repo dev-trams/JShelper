@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.worb8.jshelper.Main1_1Activity">
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="com.example.worb8.jshelper.Main1Activity">
+
 
     <RelativeLayout
+        android:background="@drawable/table"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@drawable/table">
-
+        android:layout_weight="1">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center_vertical|center_horizontal"
             android:layout_weight="1">
             <!--1열 시작-->
             <ImageButton
@@ -183,7 +184,7 @@
                 android:id="@+id/it21"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:layout_marginLeft="70dp"
+                android:layout_marginLeft="80dp"
                 android:layout_marginTop="90dp"
                 android:background="@drawable/item8" />
 
@@ -285,5 +286,8 @@
         android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:layout_weight="1"
+        android:textColor="#000"
+        android:autoSizeMaxTextSize="7pt"
+        android:autoSizeMinTextSize="3pt"
         android:text="@string/tx1help" />
 </LinearLayout>

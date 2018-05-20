@@ -10,29 +10,56 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--앱을 기동할때 처음으로 나오는 화면-->
+        <!-- 앱을 기동할때 처음으로 나오는 화면 -->
         <activity android:name=".First">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main1_1Activity"/>
-        <!--상차림-->
-        <activity android:name=".Main1Activity"/>
-        <activity android:name=".Main2Activity"/>
-        <activity android:name=".Main3Activity"/>
-        <activity android:name=".Main4Activity"/>
-        <activity android:name=".Main5Activity"/>
-        <activity android:name=".Main6Activity"/>
-        <!--메인엑티비티용 팝업창-->
-        <activity android:name=".layout1_1"/>
-        <activity android:name=".layout1_2"/>
-        <activity android:name=".layout1_3"/>
-        <activity android:name=".layout1_4"/>
-        <activity android:name=".layout1_5"/>
-        <activity android:name=".layout1_6"/>
+        <!-- &lt;!&ndash;테스트용&ndash;&gt; -->
+        <!-- <activity android:name=".Main1_1Activity"/> -->
 
+
+        <!-- 상차림 -->
+        <activity android:name=".Main1Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+
+        <!-- 메인엑티비티용 팝업창 -->
+        <activity android:name=".layout1_1" />
+        <activity android:name=".layout1_2" />
+        <activity android:name=".layout1_3" />
+        <activity android:name=".layout1_4" />
+        <activity android:name=".layout1_5" />
+        <activity android:name=".layout1_6" />
+        <activity android:name=".layout1_7" />
+        <activity android:name=".layout1_8" />
+        <activity android:name=".layout1_9" />
+        <activity android:name=".layout2_1" />
+        <activity android:name=".layout2_2" />
+        <activity android:name=".layout2_3" />
+        <activity android:name=".layout2_4" />
+        <activity android:name=".layout2_5" />
+        <activity android:name=".layout2_6" />
+        <activity android:name=".layout2_7" />
+        <activity android:name=".layout2_8" />
+        <activity android:name=".layout2_9" />
+        <activity android:name=".layout3_1" />
+        <activity android:name=".layout3_2" />
+        <activity android:name=".layout3_3" />
+        <activity android:name=".layout3_4" />
+        <activity android:name=".layout3_5" />
+        <activity android:name=".layout3_6" />
+        <activity android:name=".layout3_7" />
+        <activity android:name=".layout3_8" />
+        <activity android:name=".layout3_9" />
+        <activity android:name=".layout4_1" />
+        <activity android:name=".slider"></activity>
     </application>
 
 </manifest>

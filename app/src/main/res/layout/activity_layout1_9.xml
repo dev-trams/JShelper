@@ -11,14 +11,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="초"
+        android:text="어적"
         android:textSize="25sp" />
 
 
     <ImageView
+        android:background="@drawable/p7"
         android:layout_width="80dp"
         android:layout_height="100dp"
-        android:layout_marginLeft="130dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp" />
 
     <TextView

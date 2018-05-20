@@ -18,6 +18,7 @@
         android:textAlignment="center" />
 
     <LinearLayout
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -60,13 +61,13 @@
             <Button
                 android:id="@+id/btn5"
                 style="@style/first_btn"
-                android:text="@string/btntx6"
+                android:text="@string/btntx5"
                 android:onClick="onbtnClick5"/>
 
             <Button
                 android:id="@+id/btn6"
                 style="@style/first_btn"
-                android:text="@string/warning"
+                android:text="@string/btntx6"
                 android:onClick="onbtnClick6"/>
         </LinearLayout>
 

@@ -11,7 +11,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="탕"
+        android:text="침채"
         android:textSize="25sp" />
 
 
